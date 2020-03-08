@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StarWars API App</string>
+    <string name="navigation_drawer_open">Abra a gaveta de navegação</string>
+    <string name="navigation_drawer_close">Feche a gaveta de navegação</string>
+    <string name="nav_header_title">Star Wars API</string>
+    <string name="nav_header_subtitle">Come to this universe!</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_films">Films</string>
+    <string name="menu_people">People</string>
+    <string name="menu_planets">Planets</string>
+    <string name="menu_species">Species</string>
+    <string name="menu_starships">Spaceships</string>
+    <string name="menu_vehicles">Vehicles</string>
+</resources>

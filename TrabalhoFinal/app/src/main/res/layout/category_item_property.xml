@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <!--android:textColor="#2d2d2d"-->
+            <TextView
+                android:id="@+id/info1_property_name"
+                android:gravity="center"
+                android:textColor="@android:color/system_notification_accent_color"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info1:"
+                android:textSize="16sp"
+                android:ellipsize="none"
+                android:maxLength="18"
+                android:maxLines="5"
+                android:scrollHorizontally="false"/>
+
+            <!--android:textColor="#2d2d2d"-->
+            <TextView
+                android:id="@+id/info1_property"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info1 Value"
+                android:textSize="16sp"
+                android:ellipsize="none"
+                android:maxLength="18"
+                android:maxLines="5"
+                android:scrollHorizontally="false"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

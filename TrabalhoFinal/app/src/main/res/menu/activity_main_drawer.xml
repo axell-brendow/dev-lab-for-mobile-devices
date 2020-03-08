@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_films"
+            android:icon="@drawable/ic_videocam_white_24dp"
+            android:title="@string/menu_films"/>
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/ic_starwars_icons_r2d2"
+            android:title="@string/menu_people" />
+        <item
+            android:id="@+id/nav_planets"
+            android:icon="@drawable/ic_starwars_planets_deathstar"
+            android:title="@string/menu_planets" />
+        <item
+            android:id="@+id/nav_species"
+            android:icon="@drawable/ic_starwars_people_chewbacca"
+            android:title="@string/menu_species" />
+        <item
+            android:id="@+id/nav_starships"
+            android:icon="@drawable/ic_starwars_icons_millenniumfalcon"
+            android:title="@string/menu_starships" />
+        <item
+            android:id="@+id/nav_vehicles"
+            android:icon="@drawable/ic_starwars_vehicle_vehicle"
+            android:title="@string/menu_vehicles" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>-->
+
+</menu>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ArquivoTexto</string>
+    <string name="salvar">Salvar</string>
+    <string name="azul">Azul</string>
+    <string name="vermelho">Vermelho</string>
+</resources>

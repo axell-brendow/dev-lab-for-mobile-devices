@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppTemp</string>
+    <string name="digite_a_temperatura_em_celsius">Digite a temperatura em Celsius:</string>
+    <string name="escolha_a_temperatura">Escolha a temperatura:</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="resultado_em_kelvin">Kelvin</string>
+    <string name="resultado_em_fahrenheit">Fahrenheit</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado_em_r_aumur">Réaumur</string>
+    <string name="resultado_em_rankine">Rankine</string>
+    <string name="r_aumur">Réaumur</string>
+    <string name="rankine">Rankine</string>
+</resources>

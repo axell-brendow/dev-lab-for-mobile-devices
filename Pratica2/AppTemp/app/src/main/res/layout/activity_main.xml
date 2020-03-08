@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/digite_a_temperatura_em_celsius"
+        android:textSize="18sp"
+        />
+    <!-- gravity: centraliza o conteúdo dentro do elemento. -->
+    <!-- layout_gravity: centraliza o elemento em relação ao pai -->
+
+    <EditText
+        android:id="@+id/inputTemperatura"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_a_temperatura"
+        android:layout_marginTop="30dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkboxKelvin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kelvin"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        />
+
+    <CheckBox
+        android:id="@+id/checkboxFahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fahrenheit"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        />
+
+    <CheckBox
+        android:id="@+id/checkboxReaumur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/r_aumur"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        />
+
+    <CheckBox
+        android:id="@+id/checkboxRankine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rankine"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        />
+
+    <!--<Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/calcular"
+        android:textColor="@color/colorAccent"
+        android:background="@color/cinza"
+        android:onClick="onClickBtnCalcular"
+        />-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:layout_marginTop="50dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_kelvin"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_fahrenheit"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_r_aumur"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_rankine"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txtKelvin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_kelvin"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txtFahrenheit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_fahrenheit"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txtReaumur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_r_aumur"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txtRankine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_em_rankine"
+                android:textSize="16sp"
+                android:padding="18dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

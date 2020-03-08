@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppFragmentos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="eu_sou_um_fragmento">Eu sou um fragmento</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_to_mainfragment">Jogo dos animais</string>
+    <string name="go_to_secondfragment">Jogo do adivinha</string>
+    <string name="eu_sou_o_segundo_fragmento">Eu sou o segundo fragmento</string>
+    <string name="ok">OK !</string>
+    <string name="sons_de_animais">Sons de animais</string>
+    <string name="tentar_adivinhar">Tentar adivinhar</string>
+    <string name="gerar_n_mero_aleat_rio">Gerar número aleatório</string>
+</resources>

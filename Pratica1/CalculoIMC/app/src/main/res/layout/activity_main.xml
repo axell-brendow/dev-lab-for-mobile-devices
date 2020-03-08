@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtPeso"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="Digite o seu peso (Kg)" />
+
+    <EditText
+        android:id="@+id/inputPeso"
+        android:layout_width="360dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtAltura"
+        android:layout_width="360dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Digite a sua altura (cm)" />
+
+    <EditText
+        android:id="@+id/inputAltura"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtIMC"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="IMC" />
+
+</LinearLayout>

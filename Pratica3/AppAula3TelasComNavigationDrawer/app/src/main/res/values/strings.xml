@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppAula3-TelasComNavigationDrawer</string>
+    <string name="digite_um_texto">Digite um texto</string>
+    <string name="ir_para_animais">Ir para animais</string>
+    <string name="tela_dos_animais">Tela dos animais</string>
+    <string name="textoaleatorio">TextoAleatorio</string>
+    <string name="enviar_texto">Enviar texto</string>
+</resources>

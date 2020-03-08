@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline95vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline95horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95"/>
+
+    <EditText
+        android:id="@+id/inputCep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Digite o CEP (apenas números)"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:maxLength="15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toTopOf="@+id/guideline5horizontal" />
+
+    <EditText
+        android:id="@+id/inputLogradouro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Logradouro"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toBottomOf="@+id/inputCep" />
+
+    <EditText
+        android:id="@+id/inputComplemento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Complemento"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toBottomOf="@+id/inputLogradouro" />
+
+    <EditText
+        android:id="@+id/inputBairro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Bairro"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toBottomOf="@+id/inputComplemento" />
+
+    <EditText
+        android:id="@+id/inputLocalidade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Localidade"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toBottomOf="@+id/inputBairro" />
+
+    <EditText
+        android:id="@+id/inputUf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="UF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toBottomOf="@+id/inputLocalidade" />
+
+    <!--<EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="UF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline5vertical"
+        app:layout_constraintTop_toBottomOf="@+id/inputCep" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
